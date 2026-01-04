@@ -167,7 +167,8 @@ a {
 }
 
 .hero-visual {
-    flex: 0 0 320px;
+    flex: 0 0 280px;
+    max-width: 280px;
 }
 
 .hero-image {
