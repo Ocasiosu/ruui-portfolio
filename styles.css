@@ -297,6 +297,44 @@ a {
     margin-bottom: 16px;
 }
 
+/* Timeline */
+.timeline {
+    margin-top: 16px;
+}
+
+.timeline-item {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+}
+
+.timeline-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.timeline-date {
+    flex: 0 0 80px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--accent);
+}
+
+.timeline-content h5 {
+    font-size: 0.95rem;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+}
+
+.timeline-content p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 0;
+}
+
 /* About Section */
 .about-content {
     max-width: 700px;
