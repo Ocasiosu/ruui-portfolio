@@ -205,6 +205,103 @@ a {
     font-size: 0.95rem;
 }
 
+/* Projects Section */
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.project-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.project-badge {
+    display: inline-block;
+    background: var(--accent-light);
+    color: var(--accent);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.project-card h3 {
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    margin-bottom: 16px;
+}
+
+.project-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.project-problem,
+.project-solution,
+.project-result {
+    padding-left: 16px;
+    border-left: 3px solid var(--border);
+}
+
+.project-problem {
+    border-color: #e53e3e;
+}
+
+.project-solution {
+    border-color: #3182ce;
+}
+
+.project-result {
+    border-color: #38a169;
+}
+
+.project-detail .label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+    display: block;
+}
+
+.project-problem .label {
+    color: #e53e3e;
+}
+
+.project-solution .label {
+    color: #3182ce;
+}
+
+.project-result .label {
+    color: #38a169;
+}
+
+.project-detail p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+.project-tech {
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+}
+
+.project-tech span {
+    font-size: 0.8rem;
+    background: var(--bg-primary);
+    padding: 4px 10px;
+    border-radius: 4px;
+    color: var(--text-secondary);
+}
+
 /* Works Grid */
 .works-grid {
     display: grid;
